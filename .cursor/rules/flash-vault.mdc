@@ -3,12 +3,13 @@ description: 闪念展开 — 判簇、写 Brief、对话回 Brief 头
 alwaysApply: true
 ---
 
-处理任何闪念或「又一条闪念」时，必须遵守仓库根目录 `AGENTS.md`。
+必须遵守仓库根目录 `AGENTS.md`。同一会话里既收闪念，也做决定、删除、改工作流。
 
 最低要求：
 
-1. 先读 `profile.yaml`、`queue.md`、`cards/`、`briefs/`，再写新 Brief。
-2. 同类闪念并入已有 Brief，禁止重复报告。
-3. 链接就是闪念，不是附件。
-4. 改文件之后，对话里必须先回 Brief 头（这是什么 / 主任务 / 本次新建或并入 / 待你决定 / 缺口）。
-5. `profile.yaml` 只用于 LearnLand 的工作落地，禁止用当前工作过滤独立 idea。
+1. 先分类：闪念 vs 决定 vs 删除 vs 改工作流。指挥仓库的话禁止建成新 Seed。
+2. 闪念：先读 `profile.yaml`、`queue.md`、`cards/`、`briefs/`，再写或并入 Brief。
+3. 同类闪念并入已有 Brief，禁止重复报告。
+4. 链接就是闪念，不是附件。
+5. 闪念或决定处理完，对话里必须先回 Brief 头。删除和改工作流回改了哪些路径/条款。
+6. `profile.yaml` 只用于 LearnLand 的工作落地，禁止用当前工作过滤独立 idea。
