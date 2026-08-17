@@ -5,7 +5,7 @@ Cloud Agent 每次展开或用户做完决定后更新本文件。
 
 ## 待决定
 
-（空）
+- `briefs/env-check-virtual-scroll.md` — Vue 长列表虚拟滚动（环境自检 Demo）｜LearnLand｜status: ready
 
 ## 已决定
 
