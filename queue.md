@@ -9,4 +9,4 @@ Cloud Agent 每次展开或用户做完决定后更新本文件。
 
 ## 已决定
 
-（空）
+- 2026-08-17 放弃并删除：VibeHub 术语站与 Skill（原 `briefs/vibehub-term-site-skill.md`）。Seed / Source / Card / Brief 已移除，不再跟进。
