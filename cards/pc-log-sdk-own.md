@@ -1,10 +1,10 @@
 ---
 id: pc-log-sdk-own
 cluster_id: pc-log-sdk-own
-claim: 这是个技术文章，关于 PC 的日志 sdk 的方案；本地 kayou_tracker 也有 PC sdk，分析对比一下。我想搞一套属于自己的、能在生产使用的 PC 的 sdk
+claim: 是 PC 浏览器（Web）监控 SDK；对照 kayou_tracker 后，把现有 web SDK 补到生产清单，不从零再写 Hub
 brief: briefs/pc-log-sdk-own.md
 related: []
-updated_at: 2026-08-17T14:40:00+08:00
+updated_at: 2026-08-17T15:55:00+08:00
 ---
 
-用户要把微信文里的日志/监控 SDK 方案，和本地 kayou_tracker 的 PC SDK 对照，再做一套能上生产的自有 PC SDK。
+边界已锁为 Web 监控。kayou_tracker 的 web/ 已有 Tracker+插件+logcenter；缺采样、队列上限、pagehide、脱敏、CLS/INP、白屏、eventId、Observer teardown。
