@@ -1,0 +1,14 @@
+---
+description: 闪念展开 — 判簇、写 Brief、对话回 Brief 头
+alwaysApply: true
+---
+
+处理任何闪念或「又一条闪念」时，必须遵守仓库根目录 `AGENTS.md`。
+
+最低要求：
+
+1. 先读 `profile.yaml`、`queue.md`、`cards/`、`briefs/`，再写新 Brief。
+2. 同类闪念并入已有 Brief，禁止重复报告。
+3. 链接就是闪念，不是附件。
+4. 改文件之后，对话里必须先回 Brief 头（这是什么 / 主任务 / 本次新建或并入 / 待你决定 / 缺口）。
+5. `profile.yaml` 只用于 LearnLand 的工作落地，禁止用当前工作过滤独立 idea。

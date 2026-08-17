@@ -1,0 +1,18 @@
+# 工作画像
+
+LearnLand 写「明天能做 / 能否用到当前工作」时读取本文件。
+Compete（独立产品研判）禁止用 current_projects 否定 idea。
+
+请按实际情况改，保持短。
+
+role: 前端工程师
+
+stack:
+  - Vue
+  - 电商中后台
+
+collaboration: |
+  与后端、测试、产品协作。名称叫法不一致会同时打沟通和 AI。
+
+current_projects:
+  - kayou.ecshopx.admin（电商后台）
