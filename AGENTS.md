@@ -99,3 +99,13 @@ Cloud Agent：push 分支或开 PR。
 - 不做知识图谱 UI
 - 不把对话记录当正本
 - 不要求用户捕获时分类、打标题、排版
+
+## Cursor Cloud specific instructions
+
+本仓库是**纯内容 + Agent 工作流**仓库，不是传统可编译应用：没有依赖清单、构建系统、lint、测试框架、`.cursor/environment.json` 或 Dockerfile。因此：
+
+- **无需安装依赖**。启动更新脚本只做 `git --version` 之类的健康检查即可，别加 `npm install` / `pip install` 这类步骤（没有可装的东西）。
+- **没有 lint / test / build / dev server 命令**。「运行应用」= 执行上文的闪念展开工作流：捕获 Seed → 判簇 → 路由 → 写 `briefs/` + `cards/` → 更新 `queue.md` → commit/push。验证环境是否可用 = 能否把一条闪念端到端处理成 Brief。
+- **运行期只依赖三件事**：`git`（写文件 + commit/push）、文件读写、以及抓取文章正文/视频转写的联网能力（Cloud VM 出网正常，`example.com` 抓取已验证通过）。抓不到正文时按 `AGENTS.md` 在 Seed/Brief 里标缺口，别静默跳过。
+- Cloud Agent 改完必须 commit 并 push / 开 PR（正本在 GitHub，不在本机磁盘）。
+- `env-check-*` 前缀的簇是环境自检 Demo，与真实闪念无关，可随时整簇删除。
